@@ -1,0 +1,8 @@
+node_modules/
+.env
+data/seen.json
+# Circuit artifacts are large binaries — download them from
+# https://agentgames.zkverify.io/circuits/ instead of committing them.
+circuits/*.wasm
+circuits/*.zkey
+logs/
